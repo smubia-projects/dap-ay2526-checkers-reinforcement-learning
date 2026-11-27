@@ -23,6 +23,7 @@ COPY checkers_env.py    .
 COPY neural_network.py  .
 COPY mcts.py            .
 COPY rate_limit.py      .
+COPY rate_limit_engine.py .
 COPY app.py             .
 
 # ── Option B: bundle model checkpoint directly ────────────────────────────────
